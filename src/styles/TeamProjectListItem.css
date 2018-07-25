@@ -1,0 +1,25 @@
+.nameCircle{
+    display: inline-block;
+    background-color: #eb9bf7;
+    height: 1em;
+    width: 1em;
+    padding: 1em;
+    margin: .5em 1em;
+    border-radius: 50%;
+    text-align: left;
+}
+
+.content{
+    display: inline-block;
+}
+
+.TPListItem{
+    margin-bottom: 1em;
+    text-align: left;
+    transition: background-color .3s;
+}
+
+.TPListItem:hover{
+    cursor: pointer;
+    background-color: #fbe7ff;
+}

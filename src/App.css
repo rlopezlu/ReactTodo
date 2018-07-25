@@ -1,0 +1,10 @@
+.App {
+  text-align: center;    
+}
+
+.centerMain{  
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

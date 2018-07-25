@@ -1,0 +1,24 @@
+.Side{
+    display: inline-block;
+    width: 23%;
+    background-color: #fff;
+    text-align: left;
+    padding: 1em 0;
+    border-radius: 15px;
+    line-height: 2em;
+}
+
+.sideItem{
+    background-color: #fff;
+    color: black;
+    transition: background-color .4s;
+}
+
+.textItem{
+    padding: 0 1em;
+}
+
+.sideItem:hover{
+    background-color: #efddef; 
+    cursor: pointer;   
+}
